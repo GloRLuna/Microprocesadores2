@@ -2,11 +2,11 @@
 int main (void)
 {
   wiringPiSetup () ;
-  pinMode (21, OUTPUT) ;
+  pinMode (29, OUTPUT) ;
   for (;;)
   {
-    digitalWrite (21, HIGH) ; delay (500) ;
-    digitalWrite (21,  LOW) ; delay (500) ;
+    digitalWrite (29, HIGH) ; delay (500) ;
+    digitalWrite (29,  LOW) ; delay (500) ;
   }
   return 0 ;
 }
