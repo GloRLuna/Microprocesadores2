@@ -1,7 +1,7 @@
 #include <wiringPi.h>
 #include <stdio.h>
 
-#define LedPin 0
+#define LedPin 29
 
 int main(void) {
         if(wiringPiSetup() == -1) { //when initialize wiringPi failed, print message to screen
